@@ -7,8 +7,8 @@ document.addEventListener("deviceready", function() {
 	navigator.notification.beep(2);
 	} ); // tap beep
 	
-	$('#vibrar').tag(function() {
-		navigator.notification.vibrate(1000);
+	$('#vibrar').tap(function() {
+	navigator.notification.vibrate(1000);
 	} ); // tap vibrar
 	
 }, false); //deviceready

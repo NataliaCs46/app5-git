@@ -4,10 +4,10 @@ $(document).ready(function(e) {
 document.addEventListener("deviceready", function() {
 	
 	$('#beep').tap(function() {
-	navigator.notification.beep(1);
+	navigator.notification.beep(2);
 	} ); // tap beep
 	
-	$('#vibrar').tag(function () {
+	$('#vibrar').tag(function() {
 		navigator.notification.vibrate(1000);
 	} ); // vibrar
 	

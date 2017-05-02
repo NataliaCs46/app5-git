@@ -9,7 +9,7 @@ document.addEventListener("deviceready", function() {
 	
 	$('#vibrar').tag(function() {
 		navigator.notification.vibrate(1000);
-	} ); // vibrar
+	} ); // tap vibrar
 	
 }, false); //deviceready
 }) //ready
